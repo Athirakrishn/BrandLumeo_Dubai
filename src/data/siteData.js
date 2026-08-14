@@ -3,7 +3,7 @@ export const contact = {
   phone: '+91 9746 457 565',
   phoneHref: 'tel:+919746457565',
   whatsapp: '919746457565',
-  address: 'Payyoli - Perambra Rd, Kozhikode, Kerala 673522',
+  address: 'Dubai Al Barsha',
   hours: 'Mon - Sat, 9:00 AM to 6:00 PM IST',
   responseTime: 'Average response time within 2 business hours',
 };

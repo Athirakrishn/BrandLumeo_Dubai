@@ -50,11 +50,10 @@ const schemaData = {
   "email": "info@brandlumeo.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Payyoli - Perambra Rd",
-    "addressLocality": "Kozhikode",
-    "addressRegion": "Kerala",
-    "postalCode": "673522",
-    "addressCountry": "IN"
+    "streetAddress": "Al Barsha",
+    "addressLocality": "Dubai",
+    "addressRegion": "Dubai",
+    "addressCountry": "AE"
   },
   "areaServed": [
     { "@type": "City", "name": "Dubai" },
