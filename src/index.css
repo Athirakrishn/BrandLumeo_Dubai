@@ -2422,4 +2422,28 @@ body.logo-intro-active {
   .team__grid { grid-template-columns: 1fr; }
 }
 
+/* Blog Content Styles */
+.blog-content h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
 
+.blog-content p {
+  margin-bottom: 1rem;
+}
+
+.blog-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-content strong {
+  font-weight: 600;
+  color: var(--text-dark);
+}

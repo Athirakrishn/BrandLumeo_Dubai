@@ -16,7 +16,7 @@ export default function BlogGrid({ limit }) {
             <time dateTime={post.date}>{post.date}</time>
             <h3>{post.title}</h3>
             <p>{post.excerpt}</p>
-            <Link href="/blog" className="blog-card__link">
+            <Link href={`/blog/${post.slug}`} className="blog-card__link">
               Read article <ArrowUpRight size={16} />
             </Link>
           </div>

@@ -415,33 +415,41 @@ export const portfolio = [
 
 export const blogPosts = [
   {
+    slug: 'full-funnel-strategy-gcc',
     title: 'How to Build a Full-Funnel Strategy for GCC Markets',
     excerpt:
       'A practical framework for brands expanding into UAE and Gulf markets with localized campaigns.',
+    content: '<p>Expanding into the GCC markets requires a nuanced understanding of local culture, consumer behavior, and digital consumption habits. A full-funnel strategy ensures that you are not just acquiring leads, but nurturing them through a localized journey.</p><h2>Understanding the Market</h2><p>The UAE and broader Gulf region have some of the highest smartphone penetration rates globally. Your campaigns must be mobile-first and culturally relevant.</p><h2>The Funnel Approach</h2><ul><li><strong>Top of Funnel (Awareness):</strong> Leverage localized social media content and broad targeting to build brand presence.</li><li><strong>Middle of Funnel (Consideration):</strong> Use retargeting and localized educational content to build trust.</li><li><strong>Bottom of Funnel (Conversion):</strong> Implement localized landing pages and culturally adapted offers to drive action.</li></ul>',
     date: 'Mar 12, 2026',
     category: 'Strategy',
     image: '/images/sections/dubai-gcc.jpg',
   },
   {
+    slug: 'seo-vs-paid-ads',
     title: 'SEO vs Paid Ads: Where to Invest First',
     excerpt:
       'When to prioritize organic growth versus paid acquisition based on your funnel stage and budget.',
+    content: '<p>One of the most common questions we get is whether to invest in SEO or Paid Ads first. The answer, as always, depends on your business goals, timeline, and budget.</p><h2>The Case for Paid Ads</h2><p>Paid advertising offers immediate visibility and faster results. It is ideal for testing new offers, driving immediate leads, and getting quick feedback on market fit.</p><h2>The Case for SEO</h2><p>SEO is a long-term investment that builds sustainable, compounding traffic over time. While it takes longer to see results, the ROI is generally higher in the long run.</p><h2>The Verdict</h2><p>A balanced approach is often best. Use paid ads for short-term wins while simultaneously investing in SEO for long-term growth.</p>',
     date: 'Feb 28, 2026',
     category: 'SEO',
     image: '/images/sections/seo-strategy.png',
   },
   {
+    slug: '5-reporting-metrics',
     title: '5 Reporting Metrics That Actually Matter',
     excerpt:
       'Move beyond vanity metrics — the KPIs we use to drive weekly optimization decisions.',
+    content: '<p>In digital marketing, it is easy to get lost in a sea of data. However, not all metrics are created equal. Focus on the KPIs that directly impact your business goals.</p><h2>1. Customer Acquisition Cost (CAC)</h2><p>How much does it cost to acquire a new customer? This is the most critical metric for assessing campaign efficiency.</p><h2>2. Return on Ad Spend (ROAS)</h2><p>Are your ads generating more revenue than they cost? Tracking ROAS helps you allocate budget effectively.</p><h2>3. Conversion Rate</h2><p>What percentage of visitors take the desired action? Improving your conversion rate is often the fastest way to grow revenue.</p><h2>4. Customer Lifetime Value (CLTV)</h2><p>How much revenue will a customer generate over their relationship with your business? This helps you understand how much you can afford to spend on acquisition.</p><h2>5. Engagement Rate</h2><p>Are people interacting with your content? High engagement indicates that your messaging is resonating with your audience.</p>',
     date: 'Feb 14, 2026',
     category: 'Analytics',
     image: '/images/sections/analytics.jpg',
   },
   {
+    slug: 'brand-positioning-kerala-startups',
     title: 'Brand Positioning for Kerala Startups Going Global',
     excerpt:
       'How local brands craft messaging that resonates in both Kerala and international markets.',
+    content: '<p>Taking a startup from Kerala to the global stage requires a strategic approach to brand positioning. You need to maintain your authentic roots while appealing to a diverse international audience.</p><h2>Finding the Right Balance</h2><p>Your brand story should highlight the unique value proposition of your local origins while addressing universal pain points.</p><h2>Adapting Messaging</h2><p>Localization is key. Ensure your messaging, tone, and visual identity resonate with the cultural nuances of your target international markets.</p><h2>Building Trust</h2><p>Leverage global case studies, international partnerships, and high-quality design to build credibility and trust with an international audience.</p>',
     date: 'Jan 30, 2026',
     category: 'Branding',
     image: '/images/sections/brand-design.jpg',
