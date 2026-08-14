@@ -9,9 +9,9 @@ export const contact = {
 };
 
 export const social = [
-  { name: 'LinkedIn', href: 'https://linkedin.com' },
-  { name: 'Instagram', href: 'https://instagram.com' },
-  { name: 'Facebook', href: 'https://facebook.com' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/company/brandlumeo/' },
+  { name: 'Instagram', href: 'https://www.instagram.com/brandlumeo.ae/' },
+  { name: 'Facebook', href: 'https://www.facebook.com/brandlumeo/' },
 ];
 
 export const navLinks = [
