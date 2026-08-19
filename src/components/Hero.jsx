@@ -14,14 +14,11 @@ export default function Hero() {
         <div className="hero__gradient" />
         <div className="hero__shine" />
       </div>
-
       <div className="wrap hero__layout">
         <div className="hero__copy">
           <p className="label label--green">Dubai&apos;s Premier Growth Partner</p>
-
           <h1>Best Digital Marketing Agency in Dubai</h1>
           <span> for measurable brand growth</span>
-
           <p className="hero__desc">
             Best Digital Marketing Agency in Dubai providing expert SEO, Google Ads, Meta Ads,
             social media marketing, website development, and branding solutions for businesses.
@@ -36,12 +33,10 @@ export default function Hero() {
             ))}
           </ul>
         </div>
-
         <div className="hero__panel">
           <div className="hero__panel-main">
             <div className="hero__panel-head">
-              <span>Performance Overview</span>
-              <span className="hero__live">Live</span>
+              <span>What We Deliver</span>
             </div>
             <div className="hero__panel-chart">
               {[38, 52, 45, 68, 58, 82, 74, 92, 86, 100, 94, 88].map((h, i) => (
@@ -50,34 +45,31 @@ export default function Hero() {
             </div>
             <div className="hero__panel-foot">
               <div>
-                <small>Google Ads ROI</small>
-                <strong>+45.2%</strong>
+                <small>Focus Area</small>
+                <strong>Meta &amp; Google Ads</strong>
               </div>
               <div>
-                <small>Conversions</small>
-                <strong>1,842</strong>
+                <small>Approach</small>
+                <strong>Data-Driven</strong>
               </div>
             </div>
           </div>
-
           <div className="hero__float hero__float--1">
             <TrendingUp size={20} />
             <div>
-              <strong>+32.6%</strong>
-              <span>ROI Growth</span>
+              <strong>SEO</strong>
+              <span>Search Growth</span>
             </div>
           </div>
-
           <div className="hero__float hero__float--2">
             <ArrowUpRight size={18} />
             <div>
-              <strong>284K</strong>
-              <span>Impressions</span>
+              <strong>Ads</strong>
+              <span>Reach &amp; Conversions</span>
             </div>
           </div>
         </div>
       </div>
-
       <div className="hero__metrics">
         <div className="wrap hero__metrics-inner">
           {metrics.map((m) => (
