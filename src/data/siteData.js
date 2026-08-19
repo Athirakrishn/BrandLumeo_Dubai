@@ -47,8 +47,8 @@ export const heroFeatures = [
 ];
 
 export const metrics = [
-  { value: '150+', label: 'Campaigns Delivered' },
-  { value: '32.6%', label: 'Avg. ROI Growth' },
+  { value: '10+', label: 'Clients Served' },
+  { value: 'Kerala & UAE', label: 'Markets We Serve' },
   { value: '7–14', label: 'Days to Launch' },
 ];
 
@@ -169,11 +169,11 @@ export const portfolio = [
     description:
       'Full-funnel growth for an online learning platform — technical SEO overhaul, high-intent keyword clusters, and Google Ads campaigns targeting student enrollment across Kerala.',
     services: ['Technical SEO', 'Content Strategy', 'Google Ads', 'Landing Pages'],
-    result: '+48% lead growth in 6 months',
+    result: 'Improved lead generation and organic visibility over a 6-month engagement',
     metrics: [
-      { label: 'Lead Growth', value: '+48%' },
-      { label: 'Cost Per Lead', value: '−31%' },
-      { label: 'Organic Traffic', value: '+62%' },
+      { label: 'Focus', value: 'Lead Generation' },
+      { label: 'Approach', value: 'Technical SEO + Google Ads' },
+      { label: 'Outcome', value: 'Stronger Organic Presence' },
     ],
     image: '/images/sections/portfolio-education.jpg',
     logo: '/images/clients/logo-edufix.png',
@@ -187,11 +187,11 @@ export const portfolio = [
     description:
       'Repositioned Codeboost as a premium coding academy with refreshed brand messaging, Meta ad funnels, and conversion-focused landing pages for GCC market expansion.',
     services: ['Brand Positioning', 'Meta Ads', 'Creative Strategy', 'CRO'],
-    result: '3.2× ROAS on Meta campaigns',
+    result: 'Refreshed brand positioning supporting GCC market entry',
     metrics: [
-      { label: 'ROAS', value: '3.2×' },
-      { label: 'Ad Conversions', value: '+89%' },
-      { label: 'Brand Recall', value: '+54%' },
+      { label: 'Focus', value: 'Brand Repositioning' },
+      { label: 'Approach', value: 'Meta Ads + CRO' },
+      { label: 'Outcome', value: 'Expanded GCC Presence' },
     ],
     image: '/images/sections/portfolio-tech.jpg',
     logo: '/images/clients/logo-codeboost.png',
@@ -205,11 +205,11 @@ export const portfolio = [
     description:
       'Built a content engine and social media system for Petalbox — Instagram reels, UGC campaigns, and influencer partnerships driving engagement and repeat purchases.',
     services: ['Social Media', 'Content Creation', 'Influencer Marketing', 'Paid Social'],
-    result: '210% engagement increase',
+    result: 'Stronger social engagement and repeat purchase activity',
     metrics: [
-      { label: 'Engagement', value: '+210%' },
-      { label: 'Followers', value: '+45K' },
-      { label: 'Sales from Social', value: '+38%' },
+      { label: 'Focus', value: 'Social Engagement' },
+      { label: 'Approach', value: 'Content + Influencer Marketing' },
+      { label: 'Outcome', value: 'Higher Repeat Purchases' },
     ],
     image: '/images/sections/portfolio-retail.jpg',
     logo: '/images/clients/logo-petalbox.png',
@@ -223,11 +223,11 @@ export const portfolio = [
     description:
       'End-to-end digital strategy combining SEO, paid media, and brand storytelling to position Skylight as a top creative studio in the region.',
     services: ['Full-Funnel Strategy', 'SEO', 'Paid Media', 'Web Design'],
-    result: '+32.6% revenue uplift',
+    result: 'Elevated regional positioning as a leading creative studio',
     metrics: [
-      { label: 'Revenue', value: '+32.6%' },
-      { label: 'Qualified Leads', value: '+71%' },
-      { label: 'Website Sessions', value: '+95%' },
+      { label: 'Focus', value: 'Full-Funnel Growth' },
+      { label: 'Approach', value: 'SEO + Paid Media + Web' },
+      { label: 'Outcome', value: 'Stronger Regional Presence' },
     ],
     image: '/images/sections/portfolio-agency.jpg',
     logo: '/images/clients/logo-skylight.png',
@@ -241,11 +241,11 @@ export const portfolio = [
     description:
       'GCC-focused paid media campaigns across Google and LinkedIn with region-specific ad copy and audience targeting to reduce acquisition costs.',
     services: ['Google Ads', 'LinkedIn Ads', 'Audience Research', 'A/B Testing'],
-    result: '45% lower CAC in GCC market',
+    result: 'More efficient lead acquisition across GCC markets',
     metrics: [
-      { label: 'CAC Reduction', value: '−45%' },
-      { label: 'Lead Quality', value: '+40%' },
-      { label: 'Campaign ROAS', value: '2.8×' },
+      { label: 'Focus', value: 'Lead Acquisition' },
+      { label: 'Approach', value: 'Google + LinkedIn Ads' },
+      { label: 'Outcome', value: 'Improved Cost Efficiency' },
     ],
     image: '/images/sections/portfolio-startup.jpg',
     logo: '/images/clients/logo-sa-vision.png',
@@ -259,11 +259,11 @@ export const portfolio = [
     description:
       'Technical SEO and website optimization for Otomation — site speed improvements, schema markup, and content clusters targeting automation-related keywords.',
     services: ['Technical SEO', 'Website Development', 'Content Clusters', 'Analytics'],
-    result: 'Top 3 rankings for 28 keywords',
+    result: 'Improved keyword rankings and site performance',
     metrics: [
-      { label: 'Keywords Top 3', value: '28' },
-      { label: 'Page Speed', value: '+48%' },
-      { label: 'Demo Requests', value: '+55%' },
+      { label: 'Focus', value: 'Technical SEO' },
+      { label: 'Approach', value: 'Site Speed + Schema + Content' },
+      { label: 'Outcome', value: 'Stronger Search Visibility' },
     ],
     image: '/images/sections/portfolio-web.jpg',
     logo: '/images/clients/logo-otomation.png',
@@ -277,11 +277,11 @@ export const portfolio = [
     description:
       'Full-funnel digital marketing for ROOTS — brand visibility, lead generation, and performance campaigns tailored to drive consistent growth across digital channels.',
     services: ['Digital Marketing', 'Lead Generation', 'Campaign Strategy', 'Analytics'],
-    result: 'Sustained brand growth across channels',
+    result: 'Consistent brand growth across digital channels',
     metrics: [
-      { label: 'Brand Reach', value: '+120%' },
-      { label: 'Lead Volume', value: '+65%' },
-      { label: 'Campaign ROI', value: '3.1×' },
+      { label: 'Focus', value: 'Brand Visibility' },
+      { label: 'Approach', value: 'Full-Funnel Campaigns' },
+      { label: 'Outcome', value: 'Steady Channel Growth' },
     ],
     image: '/images/sections/growth-dashboard.jpg',
     logo: '/images/clients/roots.png',
@@ -295,11 +295,11 @@ export const portfolio = [
     description:
       'Custom WooCommerce store for Best Flowers.ae — product catalog, secure checkout, delivery zones, and mobile-optimized shopping experience for the UAE flower market.',
     services: ['WooCommerce Development', 'E-commerce UX', 'Payment Integration', 'Mobile Optimization'],
-    result: 'Fully live WooCommerce storefront',
+    result: 'Fully live, mobile-optimized WooCommerce storefront',
     metrics: [
-      { label: 'Page Load', value: '<2s' },
-      { label: 'Mobile Orders', value: '+78%' },
-      { label: 'Conversion Rate', value: '+42%' },
+      { label: 'Focus', value: 'E-commerce Build' },
+      { label: 'Approach', value: 'WooCommerce + Mobile UX' },
+      { label: 'Outcome', value: 'Smoother Mobile Shopping' },
     ],
     image: '/images/sections/portfolio-retail.jpg',
   },
@@ -312,11 +312,11 @@ export const portfolio = [
     description:
       'Meta advertising campaigns for Innové Source — audience targeting, creative ad sets, and conversion tracking optimized for qualified B2B leads across Facebook and Instagram.',
     services: ['Meta Ads', 'Audience Targeting', 'Ad Creative', 'Conversion Tracking'],
-    result: 'High-intent leads via Meta campaigns',
+    result: 'Better quality B2B leads via Meta campaigns',
     metrics: [
-      { label: 'Cost Per Lead', value: '−38%' },
-      { label: 'Ad ROAS', value: '2.9×' },
-      { label: 'Qualified Leads', value: '+85%' },
+      { label: 'Focus', value: 'B2B Lead Generation' },
+      { label: 'Approach', value: 'Meta Ads + Targeting' },
+      { label: 'Outcome', value: 'Improved Lead Quality' },
     ],
     image: '/images/sections/paid-ads.jpg',
     logo: '/images/clients/innov.jpeg',
@@ -330,11 +330,11 @@ export const portfolio = [
     description:
       'End-to-end digital marketing and custom website development for Eyetrack Solutions — full brand presence, SEO, paid media, and a conversion-focused corporate website.',
     services: ['Full Marketing', 'Website Development', 'SEO', 'Paid Media', 'Brand Strategy'],
-    result: 'Unified marketing + web presence',
+    result: 'Unified marketing and web presence across markets',
     metrics: [
-      { label: 'Website Traffic', value: '+92%' },
-      { label: 'Lead Growth', value: '+56%' },
-      { label: 'Search Visibility', value: '+48%' },
+      { label: 'Focus', value: 'Brand + Web Presence' },
+      { label: 'Approach', value: 'SEO + Paid Media + Web' },
+      { label: 'Outcome', value: 'Stronger Search Visibility' },
     ],
     image: '/images/sections/portfolio-tech.jpg',
     logo: '/images/clients/logo-eyetrack.png',
@@ -348,11 +348,11 @@ export const portfolio = [
     description:
       'Complete brand identity and website for Elvessora — logo, visual identity, brand guidelines, and a premium website that reflects the brand\'s positioning and values.',
     services: ['Brand Identity', 'Visual Design', 'Website Development', 'Brand Guidelines'],
-    result: 'Premium brand launch with live website',
+    result: 'Premium brand launch with a live, on-brand website',
     metrics: [
-      { label: 'Brand Assets', value: '100+' },
-      { label: 'Site Engagement', value: '+74%' },
-      { label: 'Bounce Rate', value: '−32%' },
+      { label: 'Focus', value: 'Brand Identity' },
+      { label: 'Approach', value: 'Visual Design + Web Build' },
+      { label: 'Outcome', value: 'Cohesive Brand Presence' },
     ],
     image: '/images/sections/brand-design.jpg',
     logo: '/images/clients/Elvessora.jpeg',
@@ -366,11 +366,11 @@ export const portfolio = [
     description:
       'Video content production and marketing for Belleza — brand films, social reels, product showcases, and video-led campaigns across Instagram, Meta, and YouTube.',
     services: ['Video Production', 'Social Reels', 'Content Marketing', 'Video Ads'],
-    result: 'Video-first brand content engine',
+    result: 'Video-first content engine driving ongoing engagement',
     metrics: [
-      { label: 'Video Views', value: '1.2M+' },
-      { label: 'Engagement', value: '+165%' },
-      { label: 'Ad CTR', value: '+48%' },
+      { label: 'Focus', value: 'Video Content' },
+      { label: 'Approach', value: 'Reels + Product Showcases' },
+      { label: 'Outcome', value: 'Higher Social Engagement' },
     ],
     image: '/images/sections/content-marketing.jpg',
     logo: '/images/clients/belleza.png',
@@ -384,11 +384,11 @@ export const portfolio = [
     description:
       'Integrated digital marketing and website development for MYF — performance campaigns, SEO, social media, and a modern website built for lead capture and conversion.',
     services: ['Digital Marketing', 'Website Development', 'SEO', 'Social Media'],
-    result: 'Full digital presence + lead pipeline',
+    result: 'Full digital presence built for lead capture',
     metrics: [
-      { label: 'Organic Traffic', value: '+88%' },
-      { label: 'Form Submissions', value: '+62%' },
-      { label: 'Social Reach', value: '+95%' },
+      { label: 'Focus', value: 'Lead Capture' },
+      { label: 'Approach', value: 'SEO + Social + Web' },
+      { label: 'Outcome', value: 'Stronger Digital Pipeline' },
     ],
     image: '/images/sections/services-pro-3.jpg',
     logo: '/images/clients/myf.jpeg',
@@ -402,11 +402,11 @@ export const portfolio = [
     description:
       'Full-stack marketing and custom CRM software development for Lumeo CRM — product positioning, go-to-market strategy, paid acquisition, and bespoke CRM platform engineering.',
     services: ['Full Marketing', 'Software Development', 'CRM Platform', 'Go-to-Market', 'Paid Ads'],
-    result: 'CRM product launch with full GTM',
+    result: 'Successful CRM product launch with a full go-to-market plan',
     metrics: [
-      { label: 'Platform Users', value: '500+' },
-      { label: 'MRR Growth', value: '+40%' },
-      { label: 'Demo Sign-ups', value: '+72%' },
+      { label: 'Focus', value: 'Product Launch' },
+      { label: 'Approach', value: 'GTM Strategy + Paid Ads' },
+      { label: 'Outcome', value: 'Growing Platform Adoption' },
     ],
     image: '/images/sections/portfolio-web.jpg',
     logo: '/images/clients/lumeo crm.jpeg',

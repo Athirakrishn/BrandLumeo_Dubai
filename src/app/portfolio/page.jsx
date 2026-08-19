@@ -42,4 +42,8 @@ export default function PortfolioPage() {
       </section>
       <FinalCTA
         title="Work with the best digital marketing company in Dubai"
-        description="Book a free
+        description="Book a free consultation and let's talk through where your brand stands — and where it could go."
+      />
+    </>
+  );
+}
