@@ -52,8 +52,8 @@ export default function BlogPostPage({ params }) {
             <p style={{ color: 'var(--text-light)', fontSize: '1.125rem' }}>{post.date}</p>
           </div>
 
-          <div style={{ marginBottom: '3rem', borderRadius: '1rem', overflow: 'hidden' }}>
-            <img src={post.image} alt={post.title} style={{ width: '100%', height: 'auto', display: 'block' }} />
+          <div style={{ marginBottom: '3rem', borderRadius: '1rem', overflow: 'hidden', maxHeight: '400px' }}>
+            <img src={post.image} alt={post.title} style={{ width: '100%', height: '100%', maxHeight: '400px', objectFit: 'cover', display: 'block' }} />
           </div>
 
           <div className="blog-content" dangerouslySetInnerHTML={{ __html: post.content }} style={{

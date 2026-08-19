@@ -1,8 +1,8 @@
 export const contact = {
   email: 'info@brandlumeo.com',
-  phone: '+91 9746 457 565',
-  phoneHref: 'tel:+919746457565',
-  whatsapp: '919746457565',
+  phone: '+971 50 549 1436',
+  phoneHref: 'tel:+971505491436',
+  whatsapp: '971505491436',
   address: 'Dubai Al Barsha',
   hours: 'Mon - Sat, 9:00 AM to 6:00 PM IST',
   responseTime: 'Average response time within 2 business hours',
