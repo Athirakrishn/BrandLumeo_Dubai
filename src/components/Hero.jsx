@@ -20,8 +20,9 @@ export default function Hero() {
           <h1>Best Digital Marketing Agency in Dubai</h1>
           <span> for measurable brand growth</span>
           <p className="hero__desc">
-            Best Digital Marketing Agency in Dubai providing expert SEO, Google Ads, Meta Ads,
-            social media marketing, website development, and branding solutions for businesses.
+            As the best digital marketing agency in Dubai, we help brands grow through
+            expert SEO, Google Ads, Meta Ads, social media marketing, website development,
+            and branding solutions across the UAE and Kerala.
           </p>
           <div className="hero__btns">
             <Button href="/contact">Get a Free Strategy Call</Button>
