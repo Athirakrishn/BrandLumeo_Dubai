@@ -6,19 +6,18 @@ import { images } from '@/data/siteData';
 export const metadata = {
   title: 'Blog — Best Advertising Agency in Dubai | Brandlumeo',
   description:
-    'Marketing insights from the best advertising agency in Dubai — growth playbooks for brands in the UAE, Kerala, and GCC.',
+    'Marketing insights and growth playbooks from Brandlumeo — for brands in the UAE, Kerala, and GCC.',
 };
 
 export default function BlogPage() {
   return (
     <>
       <PageHero
-        label="Best Advertising Agency in Dubai"
-        title="Insights from the best advertising agency in Dubai"
+        label="Growth Playbooks"
+        title="Marketing insights from real client campaigns"
         subtitle="Notes and playbooks from campaigns we've actually run — not theory, things that worked for brands scaling across the UAE, Kerala, and the GCC."
         image={images.heroBlog}
       />
-
       <section className="section-light blog-page">
         <div className="wrap">
           <div className="section-head section-head--center">
@@ -35,18 +34,15 @@ export default function BlogPage() {
               obvious ones.
             </p>
           </div>
-
           <BlogGrid />
-
           <p className="lead lead--center blog-page__outro">
             Want hands-on help putting this into action? We can turn these
             ideas into a growth plan built specifically for your brand.
           </p>
         </div>
       </section>
-
       <FinalCTA
-        title="Partner with the best advertising agency in Dubai"
+        title="Ready to plan your next campaign?"
         description="Book a free strategy call and let's start mapping out your next campaign."
       />
     </>
