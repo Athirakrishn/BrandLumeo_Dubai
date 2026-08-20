@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { ArrowUpRight, TrendingUp } from 'lucide-react';
 import Button from './Button';
 import { heroFeatures, metrics, images } from '@/data/siteData';
@@ -5,11 +6,16 @@ import { heroFeatures, metrics, images } from '@/data/siteData';
 export default function Hero() {
   return (
     <section className="hero">
-      <div
-        className="hero__photo"
-        style={{ backgroundImage: `url(${images.heroHome})` }}
-        aria-hidden="true"
-      />
+      <div className="hero__photo" aria-hidden="true">
+        <Image
+          src="/images/hero-bg.webp"
+          alt=""
+          fill
+          priority
+          style={{ objectFit: 'cover' }}
+          sizes="100vw"
+        />
+      </div>
       <div className="hero__bg" aria-hidden="true">
         <div className="hero__gradient" />
         <div className="hero__shine" />
