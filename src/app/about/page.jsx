@@ -8,25 +8,24 @@ import { images, trustPoints } from '@/data/siteData';
 export const metadata = {
   title: 'About — Best Marketing Company in Dubai | Brandlumeo',
   description:
-    'Brandlumeo is the best marketing company in Dubai for full-funnel growth across Kerala and the GCC.',
+    'Meet the team behind Brandlumeo — a full-funnel digital marketing agency serving brands across Dubai, the UAE, and Kerala.',
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        label="Best Marketing Company in Dubai"
-        title="Growth partners — the best marketing company in Dubai"
+        label="Who We Are"
+        title="Growth partners for brands across Dubai, Kerala & the GCC"
         subtitle="We combine data, creativity, and technology to deliver the kind of results that keep clients around for years, not just campaigns."
         image={images.heroAbout}
         tall
       />
-
       <section className="section-light about-page">
         <div className="wrap about-page__grid">
           <div className="about-page__text">
             <p className="label">Who We Are</p>
-            <h2>UAE&apos;s premier growth agency</h2>
+            <h2>A full-funnel growth agency</h2>
             <p className="lead">
               Brandlumeo works with growth-minded brands across Dubai, Kerala,
               and the wider GCC — handling everything from SEO and paid media
@@ -55,7 +54,6 @@ export default function AboutPage() {
           />
         </div>
       </section>
-
       <section className="section-muted about-office">
         <div className="wrap about-office__grid">
           <img
@@ -76,11 +74,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
       <Team intro="The team behind Brandlumeo — strategists and builders who've been running growth campaigns across Kerala and the GCC for years." />
-
       <Process />
-
       <FinalCTA description="Curious what this could look like for your brand? Book a free strategy call and let's talk through your next phase of growth." />
     </>
   );
