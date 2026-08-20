@@ -11,9 +11,9 @@ import FinalCTA from '@/components/FinalCTA';
 import Button from '@/components/Button';
 
 export const metadata = {
-  title: "Best Digital Marketing Agency in Dubai",
+  title: "Best Digital Marketing Agency in Dubai | Brandlumeo",
   description:
-    "Best Digital Marketing Agency in Dubai providing expert SEO, Google Ads, Meta Ads, social media marketing, website development, and branding solutions for businesses.",
+    "SEO, Google Ads, Meta Ads, social media marketing, website development, and branding solutions for businesses in Dubai, the UAE, and Kerala.",
   openGraph: {
     title: "Best Digital Marketing Agency in Dubai | Brandlumeo",
     description:
@@ -46,11 +46,11 @@ const schemaData = {
   "name": "Brandlumeo",
   "image": "https://brandlumeo.site/images/logo.png",
   "url": "https://brandlumeo.site",
-  "telephone": "+919746457565",
+  "telephone": "+971505491436",
   "email": "info@brandlumeo.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Al Barsha",
+    "streetAddress": "Al Barsha 1",
     "addressLocality": "Dubai",
     "addressRegion": "Dubai",
     "addressCountry": "AE"
@@ -67,9 +67,9 @@ const schemaData = {
     "closes": "18:00"
   },
   "sameAs": [
-    "https://linkedin.com",
-    "https://instagram.com",
-    "https://facebook.com"
+    "https://www.linkedin.com/company/brandlumeo/",
+    "https://www.instagram.com/brandlumeo.ae/",
+    "https://www.facebook.com/brandlumeo/"
   ],
   "priceRange": "$$"
 };
@@ -125,9 +125,8 @@ export default function HomePage() {
               <p className="label">Portfolio</p>
               <h2>Results that speak for themselves</h2>
               <p className="lead">
-                Real campaigns, real numbers. Here's a look at the kind of
-                results clients see when they work with us, across Kerala
-                and the GCC.
+                Here's a look at the kind of work we do for clients
+                across Kerala and the GCC.
               </p>
             </div>
 
@@ -138,7 +137,7 @@ export default function HomePage() {
 
           <PortfolioGrid limit={3} detailed />
 
-          <h2 style={{ marginTop: "2rem" }}>Best Web Development Agency in Dubai</h2>
+          <h2 style={{ marginTop: "2rem" }}>Web Design &amp; Development That Converts</h2>
           <p className="lead">
             Behind every project on this list is the same attention to
             detail — fast, secure builds that leave a good impression the
