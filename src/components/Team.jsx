@@ -1,4 +1,10 @@
+import Image from 'next/image';
 import { team } from '@/data/siteData';
+
+// Swap .png/.jpg/.jpeg extensions for the pre-generated .webp version
+function toWebp(src) {
+  return src ? src.replace(/\.(png|jpe?g)$/i, '.webp') : src;
+}
 
 export default function Team({ intro }) {
   const defaultIntro =
@@ -14,12 +20,17 @@ export default function Team({ intro }) {
         <div className="team__grid">
           {team.map((member) => (
             <article key={member.name} className="team-card">
-              <div className="team-card__photo">
-                <img
-                  src={member.image}
+              <div className="team-card__photo" style={{ position: 'relative' }}>
+                <Image
+                  src={toWebp(member.image)}
                   alt={`${member.name}, ${member.role} at Brandlumeo`}
+                  fill
                   loading="lazy"
-                  style={member.objectPosition ? { objectPosition: member.objectPosition } : undefined}
+                  sizes="(max-width: 768px) 100vw, 300px"
+                  style={{
+                    objectFit: 'cover',
+                    objectPosition: member.objectPosition || 'center',
+                  }}
                 />
               </div>
               <div className="team-card__body">
