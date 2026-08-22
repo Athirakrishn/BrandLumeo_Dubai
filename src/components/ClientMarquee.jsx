@@ -1,10 +1,7 @@
 import Image from 'next/image';
 import { clientLogos } from '@/data/siteData';
 
-// Swap .png/.jpg/.jpeg extensions for the pre-generated .webp version
-function toWebp(src) {
-  return src ? src.replace(/\.(png|jpe?g)$/i, '.webp') : src;
-}
+
 
 export default function ClientMarquee() {
   const items = [...clientLogos, ...clientLogos];
@@ -18,7 +15,7 @@ export default function ClientMarquee() {
           {items.map((client, i) => (
             <Image
               key={`${client.name}-${i}`}
-              src={toWebp(client.src)}
+              src={client.src}
               alt={`${client.name} logo`}
               className="clients__logo-img"
               width={140}

@@ -3,10 +3,7 @@ import Image from 'next/image';
 import { ArrowUpRight, MapPin, Clock } from 'lucide-react';
 import { portfolio } from '@/data/siteData';
 
-// Swap .png/.jpg/.jpeg extensions for the pre-generated .webp version
-function toWebp(src) {
-  return src ? src.replace(/\.(png|jpe?g)$/i, '.webp') : src;
-}
+
 
 export default function PortfolioGrid({ limit, detailed = false }) {
   const items = limit ? portfolio.slice(0, limit) : portfolio;
@@ -18,13 +15,13 @@ export default function PortfolioGrid({ limit, detailed = false }) {
             <div className="portfolio-detailed__photo">
               <span className="portfolio-detailed__cat">{item.category}</span>
               {item.logo ? (
-                <div className="portfolio-detailed__brand-logo" style={{ position: 'relative', width: 120, height: 48 }}>
+                <div className="portfolio-detailed__brand-logo" style={{ position: 'relative', width: 160, height: 64 }}>
                   <Image
-                    src={toWebp(item.logo)}
+                    src={item.logo}
                     alt={`${item.title} logo`}
                     fill
                     style={{ objectFit: 'contain' }}
-                    sizes="120px"
+                    sizes="160px"
                     loading="lazy"
                   />
                 </div>
@@ -73,13 +70,13 @@ export default function PortfolioGrid({ limit, detailed = false }) {
           <div className="portfolio-card__img portfolio-card__img--brand">
             <span className="portfolio-card__cat">{item.category}</span>
             {item.logo ? (
-              <div className="portfolio-card__brand-logo" style={{ position: 'relative', width: 100, height: 40 }}>
+              <div className="portfolio-card__brand-logo" style={{ position: 'relative', width: 140, height: 56 }}>
                 <Image
-                  src={toWebp(item.logo)}
+                  src={item.logo}
                   alt={`${item.title} logo`}
                   fill
                   style={{ objectFit: 'contain' }}
-                  sizes="100px"
+                  sizes="140px"
                   loading="lazy"
                 />
               </div>
