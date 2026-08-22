@@ -4,11 +4,13 @@ import FinalCTA from '@/components/FinalCTA';
 import { images } from '@/data/siteData';
 
 export const metadata = {
-  title: 'Portfolio — Best Digital Marketing Company in Dubai | Brandlumeo',
+  title: 'Portfolio — Digital Marketing Case Studies | Brandlumeo',
   description:
-    'Case studies from the best digital marketing company in Dubai — real campaigns and results across Kerala and the GCC.',
+    'Case studies from Brandlumeo — real campaigns and results across Dubai, Kerala, and the GCC.',
+  alternates: {
+    canonical: '/portfolio',
+  },
 };
-
 export default function PortfolioPage() {
   return (
     <>

@@ -9,6 +9,9 @@ export const metadata = {
   title: 'About — Best Marketing Company in Dubai | Brandlumeo',
   description:
     'Meet the team behind Brandlumeo — a full-funnel digital marketing agency serving brands across Dubai, the UAE, and Kerala.',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 export default function AboutPage() {

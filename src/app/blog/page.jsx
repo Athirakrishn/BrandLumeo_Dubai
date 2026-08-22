@@ -7,8 +7,10 @@ export const metadata = {
   title: 'Blog — Best Advertising Agency in Dubai | Brandlumeo',
   description:
     'Marketing insights and growth playbooks from Brandlumeo — for brands in the UAE, Kerala, and GCC.',
+  alternates: {
+    canonical: '/blog',
+  },
 };
-
 export default function BlogPage() {
   return (
     <>

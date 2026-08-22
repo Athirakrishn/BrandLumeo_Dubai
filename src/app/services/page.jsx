@@ -9,6 +9,9 @@ export const metadata = {
   title: 'Services — SEO Agency in Dubai | Brandlumeo',
   description:
     'Full-funnel digital marketing services from Brandlumeo — SEO, Paid Ads, Social Media, Brand Strategy & websites for brands across Dubai and Kerala.',
+  alternates: {
+    canonical: '/services',
+  },
 };
 
 export default function ServicesPage() {
