@@ -133,7 +133,7 @@ export const team = [
     name: 'Shanavas',
     role: 'CFO',
     bio: 'Chief Financial Officer ensuring fiscal health and strategic investments, enabling continuous market expansion.',
-    image: '/images/team/shanavass.png',
+    image: '/images/team/shanavas.jpg',
     objectPosition: '50% 15%',
   },
   {
