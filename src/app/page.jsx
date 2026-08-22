@@ -14,6 +14,9 @@ export const metadata = {
   title: "Best Digital Marketing Agency in Dubai | Brandlumeo",
   description:
     "SEO, Google Ads, Meta Ads, social media marketing, website development, and branding solutions for businesses in Dubai, the UAE, and Kerala.",
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "Best Digital Marketing Agency in Dubai | Brandlumeo",
     description:

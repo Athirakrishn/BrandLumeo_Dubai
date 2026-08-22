@@ -23,6 +23,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://brandlumeo.site'),
   title: {
     default: "Best Digital Marketing Agency in Dubai | Brandlumeo",
     template: '%s',
