@@ -149,13 +149,7 @@ export default function HomePage() {
       <section id="about">
         <Team />
 
-        <div className="wrap">
-          <p className="lead">
-            Our designers, developers, and marketers work side by side on
-            every project, which is exactly how we like it — no handoffs,
-            no lost context, just people who care about getting it right.
-          </p>
-        </div>
+
       </section>
 
       <section id="blog" className="section-light home-blog">
