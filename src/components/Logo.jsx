@@ -16,16 +16,13 @@ export default function Logo({ theme = 'dark', animate = true, showTagline = tru
       setPhase('full');
       return undefined;
     }
-
     if (!introComplete) {
       setPhase('hidden');
       return undefined;
     }
-
     setPhase('b');
     const expand = setTimeout(() => setPhase('full'), 120);
     const done = setTimeout(() => setPhase('full'), 850);
-
     return () => {
       clearTimeout(expand);
       clearTimeout(done);
@@ -44,14 +41,13 @@ export default function Logo({ theme = 'dark', animate = true, showTagline = tru
         <div className="logo__clip">
           <img
             src={showBMark ? LOGO_B : LOGO_FULL}
-            alt=""
+            alt="Brandlumeo — Digital Marketing Agency"
             className={`logo__img ${showBMark ? 'logo__img--b' : 'logo__img--full'}`}
             draggable={false}
           />
         </div>
         <span className="logo__arrow-shimmer" />
       </div>
-
       {showTagline && (
         <span className={`logo__sub ${theme === 'light' ? 'logo__sub--light' : ''}`}>
           Digital Marketing Agency
